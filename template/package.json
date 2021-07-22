@@ -1,0 +1,41 @@
+{
+  "name": "<%= projectInfo.projectName %>",
+  "version": "<%= projectInfo.projectVersion %>",
+  "description": "<%= projectInfo.projectDesc %>",
+  "license": "MIT",
+  "devDependencies": {
+    "@efox/emp-cli": "latest",
+    "@efox/emp-vue3": "latest",
+    "@types/js-cookie": "^2.2.7",
+    "@typescript-eslint/eslint-plugin": "^4.28.2",
+    "@typescript-eslint/parser": "^4.28.2",
+    "@vue/babel-plugin-jsx": "^1.0.6",
+    "@vue/compiler-sfc": "^3.0.2",
+    "@vue/eslint-config-prettier": "^6.0.0",
+    "@vue/eslint-config-typescript": "^7.0.0",
+    "babel-plugin-import": "^1.13.3",
+    "eslint-plugin-prettier": "^3.4.0",
+    "eslint-plugin-vue": "^7.13.0",
+    "prettier": "^2.3.2",
+    "typescript-plugin-css-modules": "^3.4.0",
+    "vue-loader": "^16.0.0-rc.1"
+  },
+  "dependencies": {
+    "ant-design-vue": "^2.2.2",
+    "axios": "^0.21.1",
+    "dayjs": "^1.10.6",
+    "js-cookie": "^2.2.1",
+    "lodash": "^4.17.21",
+    "vue": "^3.0.2",
+    "vue-router": "^4.0.10",
+    "vuex": "^4.0.2"
+  },
+  "scripts": {
+    "dev": "emp dev",
+    "build": "emp build --env prod",
+    "start": "emp serve",
+    "stat": "emp build --analyze",
+    "emp": "emp",
+    "lint": "eslint --fix"
+  }
+}

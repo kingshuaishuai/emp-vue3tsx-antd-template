@@ -1,0 +1,7 @@
+{
+  "name": "emp-vue3tsx-antd-template",
+  "version": "1.0.0",
+  "description": "Emp template for vue3. This project uses ant-design-vue2.2 and less and includes vuex and vue-router.",
+  "main": "index.js",
+  "license": "MIT"
+}
